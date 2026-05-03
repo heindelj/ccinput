@@ -25,6 +25,7 @@ from ccinput.exceptions import (
 
 class NWChemCalculation:
     TEMPLATE = """TITLE "{}"
+    echo
     start {}
     memory total {}
     charge {}
